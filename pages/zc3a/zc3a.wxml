@@ -1,0 +1,8 @@
+<!--pages/zc3a/zc3a.wxml-->
+<view class="container">
+
+<view class="input-title">减肥</view>
+
+<button bindtap="next" class="next">完成</button>
+
+</view>

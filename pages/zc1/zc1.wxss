@@ -3,29 +3,67 @@
   display: flex;
   flex-direction: row;
   position:absolute;
-    top:0px;
-  margin:20px;
+    top:0rpx;
+  margin:40rpx;
   font-size:150%;
 }
 
 .input-wrap1 {
   display: flex;
   flex-direction: row;
-  margin:10px;
+  margin:20rpx;
 }
 
 .input-wrap2 {
   display: inline;
   position:absolute;
-    left:230px;
+    left:560rpx;
 }
 
 .info-input {
   border-bottom: 2rpx solid #000000;
   width: 200rpx; 
-  margin-left: 20px;
+  margin-left: 40rpx;
 }
 
 .next {
-  margin-top: 80rpx;
+  position: absolute;
+  top: 900rpx;
+}
+
+.list-msg {
+  background-color: #fff;
+  position: relative;
+  border-bottom: 2rpx solid #000000;
+  width: 200rpx; 
+  margin-left: 40rpx;
+}
+.listmsg .list-msg2 {
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 0 10rpx;
+}
+.select_box {
+  background-color: #eee;
+  padding: 0 10rpx;
+  width: 200rpx;
+  z-index: 1;
+  overflow: hidden;
+  animation: myfirst 0.5s;
+}
+@keyframes myfirst {
+  from {
+    height: 0rpx;
+  }
+  to {
+    height: 120rpx;
+  }
+}
+.select_one {
+  height: 60rpx;
+  line-height: 60rpx;
+  border-bottom: 1px solid #ccc;
 }

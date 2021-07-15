@@ -1,0 +1,8 @@
+<!--pages/zc3b/zc3b.wxml-->
+<view class="container">
+
+<view class="input-title">增肌</view>
+
+<button bindtap="next" class="next">完成</button>
+
+</view>

@@ -1,0 +1,13 @@
+/* pages/zc3c/zc3c.wxss */
+.input-title {
+  display: flex;
+  flex-direction: row;
+  position:absolute;
+    top:0rpx;
+  padding:40rpx;
+  font-size:150%;
+}
+.next {
+  position: absolute;
+  top: 900rpx;
+}

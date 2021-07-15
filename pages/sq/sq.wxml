@@ -1,0 +1,6 @@
+<!--pages/sq/sq.wxml-->
+<view class="container">
+
+<view class="input-title">社区</view>
+
+</view>

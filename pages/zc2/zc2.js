@@ -1,66 +1,49 @@
 // pages/zc2/zc2.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    select1: false,
+    tihuoWay1: '请选择>',
+    select2: false,
+    tihuoWay2: '请选择>'
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  bindShowMsg1() {
+    this.setData({
+      select1: !this.data.select1
+    })
+  },
+  mySelect1(e) {
+    var name = e.currentTarget.dataset.name
+    this.setData({
+      tihuoWay1: name,
+      select1: false
+    })
+  },
+  bindShowMsg2() {
+    this.setData({
+      select2: !this.data.select2
+    })
+  },
+  mySelect2(e) {
+    var name = e.currentTarget.dataset.name
+    this.setData({
+      tihuoWay2: name,
+      select2: false
+    })
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
+  next() {
+    const {
+      username,
+      gender,
+      age,
+      height,
+      weight,
+    } = this.data;
 
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+    wx.navigateTo({
+      url: '../zc3/zc3',
+    })
+  } 
 })

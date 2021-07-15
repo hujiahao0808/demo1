@@ -2,10 +2,11 @@
 Page({
   data: {
     username: '',
-    gender: '',
+    gender: '请选择>',
     age: '',
     height: '',
-    weight: ''
+    weight: '',
+    select: false,
   },
 
   inputUsername(e) {
@@ -18,11 +19,6 @@ Page({
       gender: e.detail.value,
     })
   },
-  inputAge(e) {
-    this.setData({
-      age: e.detail.value,
-    })
-  },
   inputHeight(e) {
     this.setData({
       height: e.detail.value,
@@ -31,6 +27,18 @@ Page({
   inputWeight(e) {
     this.setData({
       weight: e.detail.value,
+    })
+  }, 
+  bindShowMsg() {
+    this.setData({
+      select: !this.data.select
+    })
+  },
+  mySelect(e) {
+    var name = e.currentTarget.dataset.name
+    this.setData({
+      gender: name,
+      select: false
     })
   },
 

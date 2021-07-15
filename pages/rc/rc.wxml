@@ -1,0 +1,6 @@
+<!--pages/rc/rc.wxml-->
+<view class="container">
+
+<view class="input-title">日程</view>
+
+</view>

@@ -1,0 +1,8 @@
+<!--pages/zc3c/zc3c.wxml-->
+<view class="container">
+
+<view class="input-title">塑形</view>
+
+<button bindtap="next" class="next">完成</button>
+
+</view>

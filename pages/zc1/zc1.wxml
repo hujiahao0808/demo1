@@ -1,24 +1,38 @@
 <!--pages/zc1/zc1.wxml-->
 <view class="container">
+
 <view class="input-title">个人信息完善</view>
+
 <view class="input-wrap1">
 <view>昵称</view>
 <input value="{{username}}" bindinput="inputUsername" class="info-input"/>
 </view>
+
 <view class="input-wrap1">
 <view>性别</view>
-<input value="{{gender}}" bindinput="inputGender" class="info-input"/>
+<view class='list-msg'>
+  <view class='list-msg2' bindtap="bindShowMsg">
+    <text>{{gender}}</text>
+  </view>
+  <view class="select_box" wx:if="{{select}}">
+    <view class="select_one" bindtap="mySelect" data-name="男">男</view>
+    <view class="select_one" bindtap="mySelect" data-name="女">女</view>
+  </view>
 </view>
+</view>
+
 <view class="input-wrap1">
 <view>年龄</view>
 <input value="{{age}}" bindinput="inputAge" class="info-input"/>
 <view class="input-wrap2">岁</view>
 </view>
+
 <view class="input-wrap1">
 <view>身高</view>
 <input value="{{height}}" bindinput="inputHeight" class="info-input"/>
 <view class="input-wrap2">cm</view>
 </view>
+
 <view class="input-wrap1">
 <view>体重</view>
 <input value="{{weight}}" bindinput="inputWeight" class="info-input"/>
@@ -26,4 +40,5 @@
 </view>
 
 <button bindtap="next" class="next">下一步</button>
+
 </view>

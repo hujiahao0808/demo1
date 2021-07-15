@@ -1,0 +1,9 @@
+/* pages/sq/sq.wxss */
+.input-title {
+  display: flex;
+  flex-direction: row;
+  position:absolute;
+    top:0rpx;
+  margin:40rpx;
+  font-size:150%;
+}

@@ -1,0 +1,14 @@
+<!--pages/zc3/zc3.wxml-->
+<view class="container">
+
+<view class="input-title">运动目标</view>
+
+<button bindtap="nexta" class="next1">减肥</button>
+<button bindtap="nextb" class="next1">增肌</button>
+<button bindtap="nextc" class="next1">塑形</button>
+
+<button bindtap="next" class="next">跳过</button>
+
+</view>
+
+

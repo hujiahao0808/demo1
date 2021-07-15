@@ -1,2 +1,35 @@
 <!--pages/zc2/zc2.wxml-->
-<text>pages/zc2/zc2.wxml</text>
+<view class="container">
+
+<view class="input-title">个人信息完善</view>
+
+<view class="input-wrap1">
+<view>过往病史</view>
+<view class='list-msg'>
+  <view class='list-msg2' bindtap="bindShowMsg1">
+    <text>{{tihuoWay1}}</text>
+  </view>
+  <view class="select_box" wx:if="{{select1}}">
+    <view class="select_one" bindtap="mySelect1" data-name="男">男</view>
+    <view class="select_one" bindtap="mySelect1" data-name="女">女</view>
+  </view>
+</view>
+</view>
+
+<view class="input-wrap1">
+<view>运动偏好</view>
+<view class='list-msg'>
+  <view class='list-msg2' bindtap="bindShowMsg2">
+    <text>{{tihuoWay2}}</text>
+  </view>
+  <view class="select_box" wx:if="{{select2}}">
+    <view class="select_one" bindtap="mySelect2" data-name="男">男</view>
+    <view class="select_one" bindtap="mySelect2" data-name="女">女</view>
+  </view>
+</view>
+</view>
+
+<button bindtap="next" class="next">下一步</button>
+
+</view>
+
