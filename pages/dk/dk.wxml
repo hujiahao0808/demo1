@@ -3,4 +3,33 @@
 
 <view class="input-title">打卡</view>
 
+<view>
+ <view class="tr"> 
+ <view class="t2">一</view>
+ <view class="t2">二</view>
+ <view class="t2">三</view>
+ <view class="t2">四</view>
+ <view class="t2">五</view>
+ <view class="t2">六</view>
+ <view class="t2">日</view>
+ </view>
+ <view class="tr">
+ <view wx:for="{{array1}}" class="t4 {{item.color}}" bindtap="changeColor1" data-index="{{index}}">{{item.text}}</view>
 </view>
+<view class="tr">
+ <view wx:for="{{array2}}" class="t4 {{item.color}}" bindtap="changeColor2" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+ <view wx:for="{{array3}}" class="t4 {{item.color}}" bindtap="changeColor3" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+ <view wx:for="{{array4}}" class="t4 {{item.color}}" bindtap="changeColor4" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+ <view wx:for="{{array5}}" class="t4 {{item.color}}" bindtap="changeColor5" data-index="{{index}}">{{item.text}}</view>
+</view>
+
+</view>
+
+</view>
+

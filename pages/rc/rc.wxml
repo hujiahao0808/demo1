@@ -3,4 +3,30 @@
 
 <view class="input-title">日程</view>
 
+<view>
+ <view class="tr"> 
+ <view class="t1"></view>
+ <view class="t2">一</view>
+ <view class="t2">二</view>
+ <view class="t2">三</view>
+ <view class="t2">四</view>
+ <view class="t2">五</view>
+ <view class="t2">六</view>
+ <view class="t2">日</view>
+ </view>
+ <block wx:for="{{listData}}" wx:key="code">
+ <view class="tr">
+ <view class="t3">{{item.code}}</view>
+ <view class="t4 {{selected}}" bindtap="changeSelected">{{item.a}}</view>
+ <view class="t4 {{selected}}">{{item.b}}</view>
+ <view class="t4 {{selected}}">{{item.c}}</view>
+ <view class="t4 {{selected}}">{{item.d}}</view>
+ <view class="t4 {{selected}}">{{item.e}}</view>
+ <view class="t4 {{selected}}">{{item.f}}</view>
+ <view class="t4 {{selected}}">{{item.g}}</view>
+ </view>
+
+ </block>
+</view>
+
 </view>

@@ -1,66 +1,22 @@
 // pages/rc/rc.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    selected: "s2",
+    selected1: "s1",
+    listData:[
+      {"code":"01", "a":"", "b":"", "c":"", "d":"", "e":"", "f":"", "g":""},
+      {"code":"02", "a":"", "b":"", "c":"", "d":"", "e":"", "f":"", "g":""},
+      {"code":"03", "a":"", "b":"", "c":"", "d":"", "e":"", "f":"", "g":""},
+      {"code":"04", "a":"", "b":"", "c":"", "d":"", "e":"", "f":"", "g":""},
+      {"code":"05", "a":"", "b":"", "c":"", "d":"", "e":"", "f":"", "g":""}
+    ]
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
   
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  changeColor(e) {
+    if ( a1 ="s1") {
+      a1 ="s2"
+    } else {
+      a1 ="s1" 
+    }
   }
-})
+ })

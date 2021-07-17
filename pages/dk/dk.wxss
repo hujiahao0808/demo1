@@ -7,3 +7,38 @@
   margin:40rpx;
   font-size:150%;
 }
+.tr {
+  display: flex;  
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;  
+  background: snow;
+ }
+ .t2 {
+  width: 40%;
+  justify-content: center;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  padding: 0 25rpx;
+  border: 2rpx solid #000000;  
+  background: #E6F3F9;
+ }
+.t4 {
+  display: flex;
+  width:40%;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2rpx solid #000000;
+ }
+.s1 {
+  background: #ffffff;
+}
+.s2 {
+  background: #bbfdfc;
+}
+
+ 

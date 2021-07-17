@@ -1,66 +1,66 @@
 // pages/dk/dk.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    array1: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}],
+    array2: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}],
+    array3: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}],
+    array4: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}],
+    array5: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}]
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  changeColor1:function(e) {
+    var idx=e.currentTarget.dataset.index
+    if (this.data.array1[idx].color==="s1"){
+      this.data.array1[idx].color="s2"
+    } else if (this.data.array1[idx].color==="s2") {
+      this.data.array1[idx].color="s1"
+    }
+    this.setData({
+      array1: this.data.array1
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  changeColor2:function(e) {
+    var idx=e.currentTarget.dataset.index
+    if (this.data.array2[idx].color==="s1"){
+      this.data.array2[idx].color="s2"
+    } else if (this.data.array2[idx].color==="s2") {
+      this.data.array2[idx].color="s1"
+    }
+    this.setData({
+      array2: this.data.array2
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-   
+  changeColor3:function(e) {
+    var idx=e.currentTarget.dataset.index
+    if (this.data.array3[idx].color==="s1"){
+      this.data.array3[idx].color="s2"
+    } else if (this.data.array3[idx].color==="s2") {
+      this.data.array3[idx].color="s1"
+    }
+    this.setData({
+      array3: this.data.array3
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  changeColor4:function(e) {
+    var idx=e.currentTarget.dataset.index
+    if (this.data.array4[idx].color==="s1"){
+      this.data.array4[idx].color="s2"
+    } else if (this.data.array4[idx].color==="s2") {
+      this.data.array4[idx].color="s1"
+    }
+    this.setData({
+      array4: this.data.array4
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  changeColor5:function(e) {
+    var idx=e.currentTarget.dataset.index
+    if (this.data.array5[idx].color==="s1"){
+      this.data.array5[idx].color="s2"
+    } else if (this.data.array5[idx].color==="s2") {
+      this.data.array5[idx].color="s1"
+    }
+    this.setData({
+      array5: this.data.array5
+    })
   }
 })
