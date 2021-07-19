@@ -1,0 +1,22 @@
+/* pages/sq2/sq2.wxss */
+.title {
+  display: flex; 
+  justify-content: center;
+  font-size: 120%;
+  margin: 10rpx;
+}
+.input-wrap1 {
+  display: flex;
+  flex-direction: row;
+  margin:40rpx;
+  margin-left: 150rpx;
+}
+.info-input {
+  border-bottom: 2rpx solid #000000;
+  width: 300rpx; 
+  margin-left: 40rpx;
+}
+.back {
+ margin-top: 20rpx;
+ border: 2rpx solid #000000;
+}

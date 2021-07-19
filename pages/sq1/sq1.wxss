@@ -1,10 +1,9 @@
-/* pages/dk/dk.wxss */
-.input-title {
-  display: flex;
-  flex-direction: row;
+/* pages/sq1/sq1.wxss */
+.title {
+  display: flex; 
   justify-content: center;
-  margin:40rpx;
-  font-size:150%;
+  font-size: 120%;
+  margin: 10rpx;
 }
 .tr {
   display: flex;  
@@ -13,7 +12,9 @@
   height: 3rem;
   align-items: center;  
   background: snow;
+  border: 2rpx solid #000000;
  }
+
  .t2 {
   width: 40%;
   justify-content: center;
@@ -33,10 +34,7 @@
   text-align: center;
   border: 2rpx solid #000000;
  }
- .s1 {
-  background: #e43232;
-}
-.s2 {
-  background: #5fda39;
-}
-
+ .back {
+  margin-top: 20rpx;
+  border: 2rpx solid #000000;
+ }
