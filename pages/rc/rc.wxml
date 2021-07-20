@@ -36,3 +36,29 @@
 </view>
 
 </view>
+
+
+<view class="title">我的计划</view>
+<view>
+
+ <view class="tr"> 
+ <view class="t2" style="width:14%">运动</view>
+ <view class="t2" style="width:36%">时间</view>
+ <view class="t2" style="width:36%">地点</view>
+ <view class="t2" style="width:14%">详情</view>
+</view>
+
+ <view class="tr">
+ <view class="t4" style="width:17%">运动3</view>
+ <view class="t4" style="width:33%">时间3</view>
+ <view class="t4" style="width:33%">地点3</view>
+ <view class="t4" style="width:17%">详情3</view>
+</view>
+
+<view>
+ <view class="tr">
+ <view class="t2" style="width:100%" bindtap="goTodk1">新增计划</view>
+ </view>
+</view>
+
+</view>

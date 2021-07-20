@@ -6,6 +6,27 @@
   margin:40rpx;
   font-size:150%;
 }
+.calendar {
+  background-color:white; 
+  padding-top: 10px;   
+  border: 2rpx solid #000000;
+  border-radius: 15px;  
+}
+.header {
+  font-size: large;
+  color: #59518d; 
+}
+.board {
+  color: #c7cbe2;
+  font-weight: bold;
+}
+
+.title {
+  display: flex; 
+  justify-content: center;
+  font-size: 120%;
+  margin: 10rpx;
+}
 .tr {
   display: flex;  
   width: 100%;
@@ -13,6 +34,7 @@
   height: 3rem;
   align-items: center;  
   background: snow;
+  border: 2rpx solid #000000;
  }
  .t2 {
   width: 40%;
@@ -33,10 +55,3 @@
   text-align: center;
   border: 2rpx solid #000000;
  }
- .s1 {
-  background: #e43232;
-}
-.s2 {
-  background: #5fda39;
-}
-

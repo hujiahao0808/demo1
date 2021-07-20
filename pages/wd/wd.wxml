@@ -1,6 +1,45 @@
 <!--pages/wd/wd.wxml-->
-<view class="container">
-
 <view class="input-title">我的</view>
 
+<view bindtap="edit" class="edit">编辑个人信息</view>
+
+<view class="input-wrap">
+<view class="input-wrap1">昵称</view>
+<view class="input-wrap2">张三</view>
 </view>
+
+<view class="input-wrap">
+<view class="input-wrap1">性别</view>
+<view class="input-wrap2">男</view>
+</view>
+
+<view class="input-wrap">
+<view class="input-wrap1">年龄</view>
+<view class="input-wrap2">20岁</view>
+</view>
+
+<view class="input-wrap">
+<view class="input-wrap1">身高</view>
+<view class="input-wrap2">175cm</view>
+</view>
+
+<view class="input-wrap">
+<view class="input-wrap1">体重</view>
+<view class="input-wrap2">65kg</view>
+</view>
+
+<view class="input-wrap">
+<view class="input-wrap1">过往病史</view>
+<view class="input-wrap2">无</view>
+</view>
+
+<view class="input-wrap">
+<view class="input-wrap1">运动偏好</view>
+<view class="input-wrap2">无</view>
+</view>
+
+<view class="input-wrap">
+<view class="input-wrap1">运动目标</view>
+<view class="input-wrap2">减肥</view>
+</view>
+

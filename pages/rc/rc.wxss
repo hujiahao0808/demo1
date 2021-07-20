@@ -7,6 +7,12 @@
   font-size:150%;
 }
 
+.title {
+  display: flex; 
+  justify-content: center;
+  font-size: 120%;
+  margin: 10rpx;
+}
 .t0 {
   position:absolute;
   top:80rpx;

@@ -1,4 +1,6 @@
 <!--pages/sq/sq.wxml-->
+<view class="input-title">社区</view>
+
 <view class="title">我加入的项目</view>
 <view>
 
