@@ -8,6 +8,11 @@
 </view>
 
 <view class="input-wrap1">
+<view>日期</view>
+<input value="{{day}}" bindinput="inputDay" class="info-input"/>
+</view>
+
+<view class="input-wrap1">
 <view>时间</view>
 <input value="{{time}}" bindinput="inputTime" class="info-input"/>
 </view>

@@ -1,0 +1,32 @@
+<!--pages/sq1a/sq1a.wxml-->
+<view class="title">项目详情</view>
+<view>
+
+<view class="tr"> 
+<view class="t2" style="width:33%">运动</view>
+<view class="t2" style="width:33%">日期</view>
+<view class="t2" style="width:33%">时间</view>
+</view>
+
+<view class="tr">
+<view class="t4" style="width:33%">{{sport}}</view>
+<view class="t4" style="width:33%">{{day}}</view>
+<view class="t4" style="width:33%">{{time}}</view>
+</view>
+
+<view class="tr"> 
+<view class="t2" style="width:33%">地点</view>
+<view class="t2" style="width:33%">人数</view>
+<view class="t2" style="width:33%">备注</view>
+</view>
+
+<view class="tr">
+<view class="t4" style="width:33%">{{place}}</view>
+<view class="t4" style="width:33%">{{people}}</view>
+<view class="t4" style="width:33%">{{others}}</view>
+</view>
+
+<button bindtap="cancel" class="back">取消</button>
+<button bindtap="back" class="back">返回</button>
+
+</view>

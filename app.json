@@ -11,8 +11,10 @@
     "pages/dk/dk",
     "pages/sq/sq",
     "pages/sq1/sq1",
+    "pages/sq1a/sq1a",
     "pages/sq2/sq2",
     "pages/sq3/sq3",
+    "pages/sq3a/sq3a",
     "pages/wd/wd"
   ],
   "tabBar": {

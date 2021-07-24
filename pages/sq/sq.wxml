@@ -15,13 +15,13 @@
  <view class="t4" style="width:17%">运动1</view>
  <view class="t4" style="width:33%">时间1</view>
  <view class="t4" style="width:33%">地点1</view>
- <view class="t4" style="width:17%" bindtap="goToSq01">详情1</view>
+ <view class="t4" style="width:17%" bindtap="goToSq1a">详情1</view>
 </view>
 <view class="tr">
  <view class="t4" style="width:17%">运动2</view>
  <view class="t4" style="width:33%">时间2</view>
  <view class="t4" style="width:33%">地点2</view>
- <view class="t4" style="width:17%" bindtap="goToSq02">详情2</view>
+ <view class="t4" style="width:17%" bindtap="goToSq1a">详情2</view>
 </view>
 
 <view class="tr">
@@ -47,13 +47,13 @@
  <view class="t4" style="width:17%">运动3</view>
  <view class="t4" style="width:33%">时间3</view>
  <view class="t4" style="width:33%">地点3</view>
- <view class="t4" style="width:17%" bindtap="goToSq03">详情3</view>
+ <view class="t4" style="width:17%" bindtap="goToSq3a">详情3</view>
 </view>
 <view class="tr">
  <view class="t4" style="width:17%">运动4</view>
  <view class="t4" style="width:33%">时间4</view>
  <view class="t4" style="width:33%">地点4</view>
- <view class="t4" style="width:17%" bindtap="goToSq04">详情4</view>
+ <view class="t4" style="width:17%" bindtap="goToSq3a">详情4</view>
 </view>
 
 <view>

@@ -29,12 +29,13 @@
 }
 .tr {
   display: flex;  
-  width: 100%;
+  width: 95%;
   justify-content: center;
   height: 3rem;
   align-items: center;  
   background: snow;
   border: 2rpx solid #000000;
+  margin: 0 2.5%;
  }
  .t2 {
   width: 40%;

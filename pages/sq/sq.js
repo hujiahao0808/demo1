@@ -18,5 +18,15 @@ Page({
     wx.navigateTo({
       url: '../sq3/sq3',
     })
-  }
+  },
+  goToSq1a:function() {
+    wx.navigateTo({
+      url: '../sq1a/sq1a',
+    })
+  },
+  goToSq3a:function() {
+    wx.navigateTo({
+      url: '../sq3a/sq3a',
+    })
+  },
 })

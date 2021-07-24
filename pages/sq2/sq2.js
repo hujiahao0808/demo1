@@ -2,6 +2,7 @@
 Page({
   data: {
     sport: '',
+    day: '',
     time: '',
     place: '',
     people: '',
@@ -11,6 +12,11 @@ Page({
   inputSport(e) {
     this.setData({
       sport: e.detail.value,
+    })
+  },
+  inputDay(e) {
+    this.setData({
+      day: e.detail.value,
     })
   },
   inputTime(e) {
