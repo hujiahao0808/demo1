@@ -8,13 +8,14 @@
     "pages/zc3b/zc3b",
     "pages/zc3c/zc3c",
     "pages/rc/rc",
+    "pages/rc1/rc1",
+    "pages/rc2/rc2",
+    "pages/rc3/rc3",
     "pages/dk/dk",
+    "pages/dk1/dk1",
     "pages/sq/sq",
     "pages/sq1/sq1",
-    "pages/sq1a/sq1a",
     "pages/sq2/sq2",
-    "pages/sq3/sq3",
-    "pages/sq3a/sq3a",
     "pages/wd/wd"
   ],
   "tabBar": {
@@ -65,7 +66,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "首页",
+    "navigationBarTitleText": "weixin",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

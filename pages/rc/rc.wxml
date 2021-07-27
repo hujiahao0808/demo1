@@ -15,50 +15,39 @@
  <view class="t2">日</view>
  </view>
  <view class="tr">
- <view class="t3">上午</view>
+ <view class="t3">6:00-8:00</view>
  <view wx:for="{{array1}}" class="t4 {{item.color}}" bindtap="changeColor1" data-index="{{index}}">{{item.text}}</view>
 </view>
 <view class="tr">
- <view class="t3">中午</view>
+ <view class="t3">8:00-10:00</view>
  <view wx:for="{{array2}}" class="t4 {{item.color}}" bindtap="changeColor2" data-index="{{index}}">{{item.text}}</view>
 </view>
 <view class="tr">
- <view class="t3">下午</view>
+ <view class="t3">10:00-12:00</view>
  <view wx:for="{{array3}}" class="t4 {{item.color}}" bindtap="changeColor3" data-index="{{index}}">{{item.text}}</view>
 </view>
 <view class="tr">
- <view class="t3">傍晚</view>
+ <view class="t3">13:30-15:30</view>
  <view wx:for="{{array4}}" class="t4 {{item.color}}" bindtap="changeColor4" data-index="{{index}}">{{item.text}}</view>
 </view>
 <view class="tr">
- <view class="t3">晚上</view>
+ <view class="t3">15:30-17:30</view>
  <view wx:for="{{array5}}" class="t4 {{item.color}}" bindtap="changeColor5" data-index="{{index}}">{{item.text}}</view>
 </view>
-
+<view class="tr">
+ <view class="t3">18:30-20:30</view>
+ <view wx:for="{{array6}}" class="t4 {{item.color}}" bindtap="changeColor6" data-index="{{index}}">{{item.text}}</view>
 </view>
-
-
-<view class="title">我的计划</view>
-<view>
-
- <view class="tr"> 
- <view class="t2" style="width:14%">运动</view>
- <view class="t2" style="width:36%">时间</view>
- <view class="t2" style="width:36%">地点</view>
- <view class="t2" style="width:14%">详情</view>
-</view>
-
- <view class="tr">
- <view class="t4" style="width:17%">运动3</view>
- <view class="t4" style="width:33%">时间3</view>
- <view class="t4" style="width:33%">地点3</view>
- <view class="t4" style="width:17%">详情3</view>
-</view>
-
-<view>
- <view class="tr">
- <view class="t2" style="width:100%" bindtap="goTodk1">新增计划</view>
- </view>
+<view class="tr">
+ <view class="t3">20:30-22:30</view>
+ <view wx:for="{{array7}}" class="t4 {{item.color}}" bindtap="changeColor7" data-index="{{index}}">{{item.text}}</view>
 </view>
 
 </view>
+
+<view class="kx"></view>
+<view class="kx1">空闲</view>
+<view class="ml"></view>
+<view class="ml1">忙碌</view>
+
+<button bindtap="goTorc1" class="back">我的计划</button>

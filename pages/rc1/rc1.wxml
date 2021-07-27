@@ -1,0 +1,31 @@
+<!--pages/rc1/rc1.wxml-->
+<view class="title">我的计划</view>
+<view>
+
+ <view class="tr"> 
+ <view class="t2" style="width:25%">计划</view>
+ <view class="t2" style="width:25%">项目</view>
+ <view class="t2" style="width:25%">运动量</view>
+ <view class="t2" style="width:25%">完成度</view>
+</view>
+
+ <view class="tr">
+  <view wx:for="{{array1}}" class="t4" bindtap="goTorc2" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+  <view wx:for="{{array2}}" class="t4" bindtap="goTorc2" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+  <view wx:for="{{array3}}" class="t4" bindtap="goTorc2" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+  <view wx:for="{{array4}}" class="t4" bindtap="goTorc2" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+  <view wx:for="{{array5}}" class="t4" bindtap="goTorc2" data-index="{{index}}">{{item.text}}</view>
+</view>
+
+</view>
+
+<button bindtap="goTorc3" class="back1">新增计划</button>
+<button bindtap="back" class="back">返回</button>

@@ -1,4 +1,4 @@
-// pages/sq2/sq2.js
+// pages/rc2/rc2.js
 Page({
 
   /**

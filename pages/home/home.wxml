@@ -1,4 +1,19 @@
 <!--pages/home/home.wxml-->
-<view class="input-title">主页</view>
 
-<button bindtap="next" class="next">首次登陆</button>
+<view class="input-title">今日推荐</view>
+
+<view class="bg1"></view>
+
+<view class="sportname">{{sportname}}</view>
+<view class="time" style="">{{time}}</view>
+<view class="sporttime" style="">{{sporttime}}</view>
+<view class="place" style="">{{place}}</view>
+
+<button class="zudui">发起组队</button>
+<button class="daka">快速打卡</button>
+
+<view class="bg2"></view>
+
+
+<view class="bg3"></view>
+

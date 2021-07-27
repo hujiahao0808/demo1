@@ -1,4 +1,4 @@
-/* pages/sq3/sq3.wxss */
+/* pages/rc1/rc1.wxss */
 .title {
   display: flex; 
   justify-content: center;
@@ -15,7 +15,6 @@
   border: 2rpx solid #000000;
   margin: 0 2.5%;
  }
-
  .t2 {
   width: 40%;
   justify-content: center;
@@ -26,7 +25,6 @@
   border: 2rpx solid #000000;  
   background: #E6F3F9;
  }
-
 .t4 {
   display: flex;
   width:40%;
@@ -35,8 +33,17 @@
   justify-content: center;
   text-align: center;
   border: 2rpx solid #000000;
+  background: #ffffff;
  }
- .back {
-  margin-top: 20rpx;
+.back{
+  position: absolute;
+  top: 950rpx;
+  left: 25%;
   border: 2rpx solid #000000;
- }
+}
+.back1{
+  position: absolute;
+  top: 800rpx;
+  left: 25%;
+  border: 2rpx solid #000000;
+}

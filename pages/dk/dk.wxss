@@ -6,6 +6,15 @@
   margin:40rpx;
   font-size:150%;
 }
+.plus{
+  position: absolute;
+  top: 0rpx;
+  height: 80rpx;
+  right: 10rpx;
+  width: 80rpx;
+  font-size:300%;
+}
+
 .calendar {
   background-color:white; 
   padding-top: 10px;   
@@ -37,6 +46,12 @@
   border: 2rpx solid #000000;
   margin: 0 2.5%;
  }
+ .tr1 {
+  display: flex;  
+  width: 100%;
+  justify-content: center;
+  height: 80rpx;
+ }
  .t2 {
   width: 40%;
   justify-content: center;
@@ -56,3 +71,25 @@
   text-align: center;
   border: 2rpx solid #000000;
  }
+
+ .wc1{
+   height: 50rpx;
+   width: 50rpx;
+   border-radius: 50%;
+   background: green;
+   margin: 0 20rpx;
+ }
+ .wc2{
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 50%;
+  background: orange;
+  margin: 0 20rpx;
+} 
+.wc3{
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 50%;
+  background: pink;
+  margin: 0 20rpx;
+}

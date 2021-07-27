@@ -1,4 +1,4 @@
-// pages/sq2/sq2.js
+// pages/dk1/dk1.js
 Page({
 
   /**

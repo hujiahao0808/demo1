@@ -2,19 +2,21 @@
 Page({
   data: {
     selected: false,
-    bg: "s1",
-    array1: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}],
-    array2: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}],
-    array3: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}],
-    array4: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}],
-    array5: [{text:"1",color:"s1"},{text:"2",color:"s1"},{text:"3",color:"s1"},{text:"4",color:"s1"},{text:"5",color:"s1"},{text:"6",color:"s1"},{text:"7",color:"s1"}]
+    bg: "s3",
+    array1: [{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"}],
+    array2: [{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"}],
+    array3: [{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"}],
+    array4: [{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"}],
+    array5: [{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"}],
+    array6: [{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"}],
+    array7: [{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"},{text:"",color:"s1"}],
   },
   select:function() {
     var selected=this.data.selected
-    if (this.data.bg==="s1"){
+    if (this.data.bg==="s3"){
       this.data.bg="s0"
     } else if (this.data.bg==="s0") {
-      this.data.bg="s1"
+      this.data.bg="s3"
     }
     this.setData({
       bg: this.data.bg,
@@ -90,5 +92,38 @@ Page({
         array5: this.data.array5
       })
     }
-  }
+  },
+  changeColor6:function(e) {
+    var idx=e.currentTarget.dataset.index
+    var selected=this.data.selected
+    if (selected) {
+      if (this.data.array6[idx].color==="s1"){
+        this.data.array6[idx].color="s2"
+      } else if (this.data.array6[idx].color==="s2") {
+        this.data.array6[idx].color="s1"
+      }
+      this.setData({
+        array6: this.data.array6
+      })
+    }
+  },
+  changeColor7:function(e) {
+    var idx=e.currentTarget.dataset.index
+    var selected=this.data.selected
+    if (selected) {
+      if (this.data.array7[idx].color==="s1"){
+        this.data.array7[idx].color="s2"
+      } else if (this.data.array7[idx].color==="s2") {
+        this.data.array7[idx].color="s1"
+      }
+      this.setData({
+        array7: this.data.array7
+      })
+    }
+  },
+  goTorc1:function(e) {
+    wx.navigateTo({
+      url: '../rc1/rc1',
+    })
+  },
 })

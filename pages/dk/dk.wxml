@@ -1,8 +1,19 @@
 <!--pages/dk/dk.wxml-->
 <view class="input-title">打卡</view>
-<calendar calendar-style="calendar" header-style="header" board-style="board" next="{{false}}" prev="{{false}}" show-more-days="{{true}}" weeks-type="cn" days-color="{{daystyle}}" binddayClick="dayClick" />
+<calendar calendar-style="calendar" header-style="header" board-style="board" next="{{true}}" prev="{{true}}" show-more-days="{{true}}" weeks-type="cn" days-color="{{daystyle}}" binddayClick="dayClick" />
 
-<view class="title">今日打卡</view>
+<view class="plus" bindtap="goTodk1">+</view>
+
+<view class="tr1"> 
+  <view class="wc1"></view>
+  <view>已完成</view>
+  <view class="wc2"></view>
+  <view>部分完成</view>
+  <view class="wc3"></view>
+  <view>未完成</view>
+</view>
+
+<view class="title">{{date}} 完成度： {{complete}}%</view>
 <view>
 
  <view class="tr"> 
@@ -17,11 +28,6 @@
  <view class="t4" style="width:33%">3</view>
 </view>
 
-<view>
- <view class="tr">
- <view class="t2" style="width:100%" bindtap="goTodk1">新增打卡</view>
- </view>
-</view>
 
 </view>
 

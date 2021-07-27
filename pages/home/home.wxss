@@ -3,12 +3,67 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin:40rpx;
+  padding:100rpx;
   font-size:150%;
+  background: yellow;
 }
 
-.next {
+.sportname{
+  position: absolute;
+  top: 380rpx;
+  left: 100rpx;
+  font-size: 120%;
+}
+.time{
+  position: absolute;
+  top: 300rpx;
+  left: 400rpx;
+  font-size: 120%;
+}
+.sporttime{
+  position: absolute;
+  top: 450rpx;
+  left: 100rpx;
+  font-size: 120%;
+}
+.place{
+  position: absolute;
+  top: 400rpx;
+  left: 400rpx;
+  font-size: 120%;
+}
+
+.zudui{
+  position: absolute;
+  top: 500rpx;
+  left: 0rpx;
+  border: 2rpx solid #000000;
+}
+.daka{
+  position: absolute;
+  top: 500rpx;
+  right: 0rpx;
+  border: 2rpx solid #000000;
+}
+
+.bg1{
+  position: absolute;
+  top: 250rpx;
+  height: 350rpx;
+  width: 100%;
+  background: burlywood;
+}
+.bg2{
+  position: absolute;
+  top: 600rpx;
+  height: 300rpx;
+  width: 100%;
+  background: yellowgreen;
+}
+.bg3{
   position: absolute;
   top: 900rpx;
-  left:200rpx
+  height: 400rpx;
+  width: 100%;
+  background: turquoise;
 }
